@@ -3,14 +3,32 @@ import styled from 'styled-components';
 
 const Section = () => {
     return (
-        <wrap>
-            Section
-        </wrap>
+        <Wrap>
+
+            <ItemText>
+                <h1>Model S</h1>
+                <p>Order Online for Touchless Delivery</p>
+            </ItemText>
+
+
+        </Wrap>
     )
 }
 
 export default Section
 
-const wrap = styled.div`
+const Wrap = styled.div`
+    width:100vw;
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    background-image:url('images/model-s.jpg');
+    background-repeat:no-repeat;
+
+`
+
+const ItemText = styled.div`
+
+
 
 `
